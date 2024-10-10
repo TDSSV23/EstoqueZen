@@ -1,6 +1,13 @@
-@import "../node_modules/bootstrap/scss/functions";
+body {
+    background-color: rgb(255, 255, 255);
+}
 
-.navbar {
-    background-color: blue;
-    
+.navbar-custom {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: flex-end; /* Alinha os itens à direita */
+}
+
+.navbar-custom .nav-link {
+    margin-right: 30px;
 }
