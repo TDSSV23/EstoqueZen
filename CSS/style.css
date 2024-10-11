@@ -1,3 +1,18 @@
+/* Oculta a barra de rolagem no Chrome, Safari e Edge */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Oculta a barra de rolagem no Firefox */
+html {
+    scrollbar-width: none; /* Firefox */
+}
+
+/* Permite o funcionamento da rolagem */
+body {
+    overflow: auto;
+}
+
 body {
     background-color: rgb(255, 255, 255);
 }
@@ -10,4 +25,7 @@ body {
 
 .navbar-custom .nav-link {
     margin-right: 30px;
+}
+.sobre-nos {
+    margin-top: 500px;  
 }
