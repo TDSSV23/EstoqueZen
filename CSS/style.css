@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200;1,400&display=swap');
+
 /* Oculta a barra de rolagem no Chrome, Safari e Edge */
 ::-webkit-scrollbar {
     display: none;
@@ -11,21 +13,39 @@ html {
 /* Permite o funcionamento da rolagem */
 body {
     overflow: auto;
+    font-family: 'Kanit', sans-serif;
+    background-image: url(/img/Teste2\ \(2\).png);
 }
 
 body {
     background-color: rgb(255, 255, 255);
 }
 
-.navbar-custom {
+.navbar-custom a:hover{
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: flex-end; /* Alinha os itens à direita */
+    color: #38b6ff;
 }
 
 .navbar-custom .nav-link {
     margin-right: 30px;
 }
 .sobre-nos {
-    margin-top: 500px;  
+    margin-top: 900px;  
 }
+
+.container-intro {
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+.img-intro {
+    max-width: 100%;
+    max-height: 100%;
+    width: 500;
+    height: 500;
+    margin-left: 500px;
+
+}
+
