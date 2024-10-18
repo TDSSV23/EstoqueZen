@@ -80,6 +80,11 @@ body {
     margin-top: 30px;
 }
 
-.foo-c {
-    margin-top: 50px;
-}
+.footer-er {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff; /* Cor do background, ajustável */
+    padding: 10px 0;
+    text-align: center;
+  }
