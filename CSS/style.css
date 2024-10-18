@@ -16,22 +16,28 @@ body {
     font-family: 'Kanit', sans-serif;
 }
 
+
 body {
     background-color: rgb(255, 255, 255);
 }
 
+.navbar-custom {
+    background-color: #eeeeee; /* Escolha a cor que você preferir */
+    height: 60px;
+}  
+
 .navbar-custom a:hover{
-    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: flex-end; /* Alinha os itens à direita */
-    color: #38b6ff;
+    color: #000000;
 }
 
 .navbar-custom .nav-link {
     margin-right: 30px;
 }
 .sobre-nos {
-    margin-top: 900px;  
+    margin-top: 900px;
+    background-color: #eeeeee;  
 }
 
 .container-intro {
@@ -69,6 +75,8 @@ body {
 
 .btn-salvar {
     margin-top: 20px; /* Aumente ou diminua esse valor conforme necessário */
+    background-color: #38b6ff;
+    border-color: #38b6ff;
 }
 
 .card-r {
@@ -87,4 +95,17 @@ body {
     background-color: #ffffff; /* Cor do background, ajustável */
     padding: 10px 0;
     text-align: center;
-  }
+}
+
+.navbar-nav .nav-item .nav-link.active h5 {
+    color: #38b6ff !important; /* Isso garante que sua cor será aplicada */
+    text-decoration: underline
+}
+
+.img-fluid {
+    border-radius: 0 0 0 650px;
+    margin-top: -150px;
+    width: 100%;
+    height: auto;
+}
+
