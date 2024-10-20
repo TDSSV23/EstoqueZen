@@ -8,53 +8,14 @@
   <link rel="icon" href="/img/LogoG_UZ.png" type="image/x-icon">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link href="/css/style.css" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
 </head>
 
 <body class="d-flex flex-column min-vh-100">
   <!-- NAV-BAR -->
 
-  <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">
-        <img src="/img/Logo_2.png" alt="Logo" width="140" height="45" class="d-inline-block align-text-top">
-      </a>
-      <a class="navbar-brand" href="#"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">
-              <h5>Início</h5>
-            </a>
-          </li>
-          <li class="nav-item ms-3">
-            <a class="nav-link" href="#">
-              <h5>Produtos</h5>
-            </a>
-          </li>
-          <li class="nav-item ms-3">
-            <a class="nav-link" href="#">
-              <h5>Fornecedor</h5>
-            </a>
-          </li>
-          <li class="nav-item ms-3">
-            <a class="nav-link" href="#">
-              <h5>Contato</h5>
-            </a>
-          </li>
-          <li class="nav-item ms-3">
-            <a class="nav-link active" href="entrar.html">
-              <h5>Entrar</h5>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <?php include ('./vendor/header.php') ?>
+<br><br>
   <!-- Formulário -->
   <div class="container d-flex justify-content-center align-items-center vh-100">
     <div class="card-r o-hidden border-0 shadow-lg">
@@ -94,7 +55,7 @@
                   <button type="submit" class="btn btn-primary btn-user btn-lg btn-block btn-salvar">Registrar</button>
                 </div>
                 <div class="po">
-                  Possui Conta? <a class="cd-entrar" href="entrar.html">Entre</a>
+                  Possui Conta? <a class="cd-entrar" href="./entrar.php">Entre</a>
                 </div>
               </form> 
             </div>
@@ -104,25 +65,8 @@
       </div>
     </div>
   </div>
-  <footer class="bg-white py-2 mt-auto footer-er">
-    <div class="container px-5">
-      <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-        <div class="col-auto">
-          <div class="small m-0">Copyright &copy; CORE CODE 2024 - Todos os Direitos Reservados</div>
-        </div>
-        <div class="col-auto">
-          <a class="small" href="#!">Privacidade</a>
-          <span class="mx-1">&middot;</span>
-          <a class="small" href="#!">Sobre</a>
-          <span class="mx-1">&middot;</span>
-          <a class="small" href="#!">Contato</a>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Footer -->
-
+  
+  <?php include ('./vendor/footer.php') ?>
 
 </body>
 
