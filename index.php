@@ -20,7 +20,7 @@
     <div class="container-intro">
       <div class="row align-items-center justify-content-between">
         <!-- Texto da introdução -->
-        <div class="col-lg-6 order-lg-1">
+        <div class="col">
           <span class="section-subtitle" data-aos="fade-up">Bem-Vindo</span>
           <h1 class="mb-4" data-aos="fade-up">
             Gerencie cada aspecto da sua loja e impulsione as vendas com a praticidade que você procura.
@@ -31,7 +31,7 @@
           </p>
         </div>
         <!-- Imagem ao lado do texto -->
-        <div class="col-lg-6 order-lg-2 text-center">
+        <div class="col text-center">
           <img src="./img/Tumb.jpg" alt="Imagem de introdução" class="img-fluid">
         </div>
       </div>
