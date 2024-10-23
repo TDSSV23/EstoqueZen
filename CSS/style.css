@@ -23,7 +23,7 @@ body {
 
 .navbar-custom {
     background-color: #eeeeee; /* Escolha a cor que você preferir */
-    height: 60px;
+    height: 60px;   
 }  
 
 .navbar-custom a:hover{
@@ -72,6 +72,7 @@ body {
     border-radius: 20px;
     width: 800px;
     height: 450px;
+    margin-top: -110px;
 }
 
 .btn-salvar {
@@ -83,7 +84,7 @@ body {
 .card-r {
     border-radius: 20px;
     width: 800px;
-
+    margin-top: -110px;
 }
 .n-po {
     margin-top: 30px;

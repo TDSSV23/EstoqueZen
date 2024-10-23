@@ -12,9 +12,8 @@
 </head>
 
 <body class="d-flex flex-column min-vh-100">
-  <!-- NAV-BAR -->
 
-  <?php include ('./vendor/header.php') ?>
+<?php include ('./vendor/header.php') ?>
 
   <!-- Formulário -->
   <div class="container d-flex justify-content-center align-items-center vh-100">
@@ -53,7 +52,7 @@
     </div>
   </div>
 
-  <?php include ('./vendor/footer.php') ?>
+<?php include ('./vendor/footer.php') ?>
 
 </body>
 

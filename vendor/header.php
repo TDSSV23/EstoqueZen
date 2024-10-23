@@ -22,7 +22,7 @@
             </a>
           </li>
           <li class="nav-item ms-3">
-            <a class="nav-link " href="#">
+            <a class="nav-link <?php if($page == 'produtos.php'){ echo 'active';}?> " href="produtos.php"> 
               <h5>Produtos</h5>
             </a>
           </li>
